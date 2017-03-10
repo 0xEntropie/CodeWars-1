@@ -6,7 +6,7 @@ It's a cool website where you face challenges and you get leveled by how good yo
 
 ## List of Challenges
 
-- [Sentence Count](js/sentence_count.js) ![JavaScript](devicon.git/icons/nodejs/nodejs-original.svg)
+- [Sentence Count](js/sentence_count.js) ![JavaScript](http://devicon.git/icons/nodejs/nodejs-original.svg)
 - [FizzBuzz](js/fizzbuzz.js)
 - [Bit Counting](js/bit_counting.js)
 - [Consecutive Strings](js/consecutive_strings.js)
