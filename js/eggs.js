@@ -27,33 +27,28 @@ function egged(year, span) {
     return 'No chickens yet!';
   }
 
-  var del = 0;
-
   var chickens = [300, 300, 300];
-  var ages = [0, 0, 0];
   var eggs = 0;
 
   for (var y = 0; y < year; y++) {
-    chickens.forEach((chick, i, arr) => {
-      console.log('egg ' + chick + ' with a ' + ages[i]);
-      eggs += chick;
-      arr[i] = Math.floor(chick * .8);
+    for (var i = 0; i < chickens.length; i++) {
+      var chick = chickens[i] = Math.floor(chickens[i] * .8);
 
-      /*if (++ages[i] >= span) {
-        arr.splice(i, 1);
-        ages.splice(i, 1);
-        del++;
-      }*/
-    });
+      eggs += chick;
+    
+      console.log('Changed ' + i + ' to ' + chick);
+    }
+
+    if (y % span === 0) {
+      chickens.splice(0, 3);
+      console.log('Removed 3 eggs @ ' + y);
+    }
 
     chickens.push(300, 300, 300);
-    ages.push(0, 0, 0);
 
     console.log(chickens);
-    console.log('y: ' + y + ' c:' + chickens.length + ' a: ' + ages.length);
+    console.log('y: ' + y + ' c:' + chickens.length);
   }
-
-  console.log('Deleted ' + del);
 
   return eggs;
 }
