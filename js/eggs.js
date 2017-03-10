@@ -20,6 +20,8 @@ Note:
 
 */
 
+// https://www.codewars.com/kata/how-many-eggs/train/javascript
+
 function egged(year, span) {
   if (!year) {
     return 'No chickens yet!';
