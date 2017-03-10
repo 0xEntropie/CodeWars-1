@@ -29,7 +29,7 @@ N23.43345, E32.6457
 */
 
 // I did the RegEx on regex101.com
-// https://regex101.com/r/R6gW88/1
+// https://regex101.com/r/R6gW88/2
 
 function isValidCoordinates(coords) {
   const regex = /^\-?([0-9]{1,2}\.?[0-9]*), \-?([0-9]{1,3}\.?[0-9]*)$/g;
