@@ -1,0 +1,1 @@
+This folder used to contain the beta problems in codewars.com. Right now I don't distinguish between them, as I think they are as good as the normal problems.
