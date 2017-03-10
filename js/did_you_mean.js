@@ -70,8 +70,8 @@ function levenstein(a, b) {
 
 let fruits = new Dictionary(['cherry', 'pineapple', 'melon', 'strawberry', 'raspberry']);
 
-fruits.findMostSimilar('strawbery'); // "strawberry"
-fruits.findMostSimilar('berry'); // "cherry"
+fruits.findMostSimilar('strawbery'); // strawberry
+fruits.findMostSimilar('berry'); // cherry
 
 let langs = new Dictionary(['javascript', 'java', 'ruby', 'php', 'python', 'coffeescript']);
-langs.findMostSimilar('heaven');
+langs.findMostSimilar('heaven'); // java
