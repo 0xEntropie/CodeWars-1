@@ -17,10 +17,7 @@ Note:
 2. Let's assume all calculations are made at the end of the year so don't bother taking eggs laid per month into consideration.
 
 3. Each chicken's egg production goes down by 20% each year, NOT the total number of eggs produced by each 'batch' of chickens. While this might appear to be the same thing, it doesn't once non-integers come into play so take care that this is reflected in your kata!
-
 */
-
-// https://www.codewars.com/kata/how-many-eggs/train/javascript
 
 function egged(year, span) {
   if (!year) {
@@ -28,33 +25,24 @@ function egged(year, span) {
   }
 
   var chickens = [300, 300, 300];
-  var eggs = 0;
+  var total = 0;
 
-  for (var y = 0; y < year; y++) {
+  for (var y = 1; y <= year; y++) {
     for (var i = 0; i < chickens.length; i++) {
-      var chick = chickens[i] = Math.floor(chickens[i] * .8);
-
-      eggs += chick;
-    
-      console.log('Changed ' + i + ' to ' + chick);
+      total += chickens[i];
+      chickens[i] = Math.floor(chickens[i] * .8);
     }
 
     if (y % span === 0) {
       chickens.splice(0, 3);
-      console.log('Removed 3 eggs @ ' + y);
     }
 
-    chickens.push(300, 300, 300);
-
-    console.log(chickens);
-    console.log('y: ' + y + ' c:' + chickens.length);
+    // TODO Add 3 new eggs when author fixes
   }
 
-  return eggs;
+  return total;
 }
 
-//console.log(egged(0, 5));
 console.log(egged(2, 1) + ' -> 900');
-//console.log(red(1, 1) + ' -> ');
-//console.log(egged(4, 8) + ' -> 2655');
-//console.log(red(74, 10));
+console.log(egged(4, 8) + ' -> 2655');
+console.log(egged(74, 10));
