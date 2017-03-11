@@ -6,32 +6,35 @@ It's a cool website where you face challenges and you get leveled by how good yo
 
 ## List of Challenges
 
-- [Sentence Count](js/sentence_count.js) ![JavaScript](assets/js.png)
-- [FizzBuzz](js/fizzbuzz.js)
-- [Bit Counting](js/bit_counting.js)
-- [Consecutive Strings](js/consecutive_strings.js)
-- [Coordinates Validator](js/coordinates.js)
-- [Did you mean?](js/did_you_mean.js)
-- [Divisors](js/divisors.js)
-- [Done Sudoku](js/done_sudoku.js)
-- [Eggs](js/eggs.js)
-- [Fibonacci Product](js/fib_product.js)
-- [Group Check](js/group_check.js)
-- [Hamming Numbers](js/hamming_numbers.js)
-- [Magnet Particles](js/magnet_particles.js)
-- [Morse](js/morse_1.js)
-- [Name Formatter](js/name_formatter.js)
-- [Network Duplicates](js/network_duplicates.js)
-- [Number Pow](js/number_pow.js)
-- [Observed PIN](js/observed_pin.js)
-- [Parentheses](js/parentheses.js)
-- [Positive Sum](js/positive_sum.js)
-- [Pyramid](js/pyramid.js)
-- [Roman Numerals](js/roman_numerals.js)
-- [Snail Sort](js/snail_sort.js)
-- [Tickets](js/tickets.js)
-- [Undo Redo](js/undo_redo.js)
-- [Walk](js/walk.js)
+### ![JavaScript](assets/js.png) JavaScript:
+
+- [Did you mean?](js/did_you_mean.js) - 3 kyu
+- [Network Duplicates](js/network_duplicates.js) - 3 kyu
+- [Magnet Particles](js/magnet_particles.js) - 4 kyu
+- [Coordinates Validator](js/coordinates.js) - 4 kyu
+- [Observed PIN](js/observed_pin.js) - 4 kyu
+- [Pyramid](js/pyramid.js) - 4 kyu
+- [Roman Numerals](js/roman_numerals.js) - 4 kyu
+- [Hamming Numbers](js/hamming_numbers.js) - 4 kyu
+- [Snail Sort](js/snail_sort.js) - 4 kyu
+- [Undo Redo](js/undo_redo.js) - 4 kyu
+- [Parentheses](js/parentheses.js) - 5 kyu
+- [Fibonacci Product](js/fib_product.js) - 5 kyu
+- [Done Sudoku](js/done_sudoku.js) - 5 kyu
+- [Bit Counting](js/bit_counting.js) - 6 kyu
+- [Consecutive Strings](js/consecutive_strings.js) - 6 kyu
+- [Divisors](js/divisors.js) - 6 kyu
+- [Group Check](js/group_check.js) - 6 kyu
+- [Morse](js/morse_1.js) - 6 kyu
+- [Name Formatter](js/name_formatter.js) - 6 kyu
+- [Tickets](js/tickets.js) - 6 kyu
+- [Walk](js/walk.js) - 6 kyu
+- [Positive Sum](js/positive_sum.js) - 8 kyu
+
+- [Eggs](js/eggs.js) - Beta
+- [Sentence Count](js/sentence_count.js) - Beta
+- [FizzBuzz](js/fizzbuzz.js) - Beta
+- [Number Pow](js/number_pow.js) - External
 
 ## Don't be a copycat!
 If you are going to try to tackle the same challenges, be fair and don't copy. I think they have a copy protection system and you would get catch inmediately, so please, don't even think about it.
