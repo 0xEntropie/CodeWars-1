@@ -6,7 +6,7 @@ It's a cool website where you face challenges and you get leveled by how good yo
 
 ## List of Challenges
 
-### ![JavaScript](assets/js.png) JavaScript:
+### JavaScript:
 
 - [Did you mean?](js/did_you_mean.js) - 3 kyu
 - [Network Duplicates](js/network_duplicates.js) - 3 kyu
@@ -23,6 +23,7 @@ It's a cool website where you face challenges and you get leveled by how good yo
 - [Done Sudoku](js/done_sudoku.js) - 5 kyu
 - [Bit Counting](js/bit_counting.js) - 6 kyu
 - [Consecutive Strings](js/consecutive_strings.js) - 6 kyu
+- [Running Pace](js/beta/running_pace.js) - 6 kyu
 - [Divisors](js/divisors.js) - 6 kyu
 - [Group Check](js/group_check.js) - 6 kyu
 - [Morse](js/morse_1.js) - 6 kyu
@@ -30,10 +31,10 @@ It's a cool website where you face challenges and you get leveled by how good yo
 - [Tickets](js/tickets.js) - 6 kyu
 - [Walk](js/walk.js) - 6 kyu
 - [Positive Sum](js/positive_sum.js) - 8 kyu
-
 - [Eggs](js/eggs.js) - Beta
 - [Sentence Count](js/sentence_count.js) - Beta
 - [FizzBuzz](js/fizzbuzz.js) - Beta
+- [Jon's Parents](js/beta/jon_parents.js) - Beta
 - [Number Pow](js/number_pow.js) - External
 
 ## Don't be a copycat!
