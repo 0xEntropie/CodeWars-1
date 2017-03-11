@@ -29,8 +29,6 @@ there is always exactly one possible solution
 // Used Levenshtein distance
 // https://en.wikipedia.org/wiki/Levenshtein_distance
 
-// Code needs Babel/ES6 transpiler
-
 function Dictionary(words) {
   this.words = words;
 }
@@ -68,6 +66,7 @@ function levenstein(a, b) {
   return m[b.length][a.length];
 }
 
+// Tests
 let fruits = new Dictionary(['cherry', 'pineapple', 'melon', 'strawberry', 'raspberry']);
 
 fruits.findMostSimilar('strawbery'); // strawberry
