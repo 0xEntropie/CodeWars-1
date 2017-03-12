@@ -4,8 +4,11 @@ This is the GitHub repository where I save copies of the challenges I faced in [
 ## What is CodeWars?
 It's a cool website where you face challenges and you get leveled by how good you do. It isn't limited to JavaScript or any or the languages you can find in this repo, it even has Kotlin!
 
-## List of Challenges
+## Leveling System
 
+![CodeWars levels](http://include.aorcsik.com/wp-content/uploads/2014/04/ranks.png)
+
+## List of Challenges
 ### JavaScript:
 
 - [Haversine Distance](js/haversine.js) - 3 kyu
