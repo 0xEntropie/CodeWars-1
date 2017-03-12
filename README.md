@@ -8,7 +8,9 @@ It's a cool website where you face challenges and you get leveled by how good yo
 
 ### JavaScript:
 
+- [Haversine Distance](js/haversine.js) - 3 kyu
 - [Did you mean?](js/did_you_mean.js) - 3 kyu
+- [Brainscrambler Interpreter](js/brainscrambler.js) - 3 kyu
 - [Network Duplicates](js/network_duplicates.js) - 3 kyu
 - [Magnet Particles](js/magnet_particles.js) - 4 kyu
 - [Coordinates Validator](js/coordinates.js) - 4 kyu
