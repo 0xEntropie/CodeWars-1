@@ -1,14 +1,15 @@
 # CodeWars
-This is the GitHub repository where I save copies of the challenges I faced in [codewars.com](https://www.codewars.com/).
+This is the GitHub repository where I save copies of the katas I've completed on [codewars.com](https://www.codewars.com/).
 
 ## What is CodeWars?
 It's a cool website where you face challenges and you get leveled by how good you do. It isn't limited to JavaScript or any or the languages you can find in this repo, it even has Kotlin!
 
 ## Leveling System
 
-![CodeWars levels](http://include.aorcsik.com/wp-content/uploads/2014/04/ranks.png)
+![CodeWars levels](https://i.imgur.com/Vm77XMv.png)
 
 ## List of Challenges
+
 ### JavaScript:
 
 - [Haversine Distance](js/haversine.js) - 3 kyu
@@ -23,6 +24,7 @@ It's a cool website where you face challenges and you get leveled by how good yo
 - [Hamming Numbers](js/hamming_numbers.js) - 4 kyu
 - [Snail Sort](js/snail_sort.js) - 4 kyu
 - [Undo Redo](js/undo_redo.js) - 4 kyu
+- [Find the missing term in an Arithmetic Progression](js/missing_num_progression.js) - 5 kyu
 - [Parentheses](js/parentheses.js) - 5 kyu
 - [Fibonacci Product](js/fib_product.js) - 5 kyu
 - [Done Sudoku](js/done_sudoku.js) - 5 kyu
@@ -42,5 +44,11 @@ It's a cool website where you face challenges and you get leveled by how good yo
 - [Jon's Parents](js/beta/jon_parents.js) - Beta
 - [Number Pow](js/number_pow.js) - External
 
+### Ruby
+Disclaimer: I'm in no way proficient in Ruby, I just wanted to see if I could complete some katas in this language.
+
+- [Boggle solver](ruby/boggle.rb) - Beta
+
 ## Don't be a copycat!
-If you are going to try to tackle the same challenges, be fair and don't copy. I think they have a copy protection system and you would get caught inmediately, so please, don't even think about it.
+
+If you are going to try to tackle the same challenges, be fair and don't copy. I'm sure there's a system that prevents you from doing it and you would get caught inmediately, so please, don't even think about it.
