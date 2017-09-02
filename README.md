@@ -47,6 +47,10 @@ It's a cool website where you face challenges and you get leveled by how good yo
 - [Jon's Parents](js/beta/jon_parents.js) - Beta
 - [Number Pow](js/number_pow.js) - External
 
+### Java
+
+- [SHA-256 Cracker](java/sha256cracker/Cracker.java) - 6 kyu
+
 ### Ruby
 Disclaimer: I'm in no way proficient in Ruby, I just wanted to see if I could complete some katas in this language.
 

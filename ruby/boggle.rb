@@ -12,7 +12,7 @@ def include?(word)
   def check?(chars, board, row, col)
     return false unless within_bounds?(row, col)
     return false unless chars.first == board[row][col]
-    board = board.transpose.transpose # hacky deep cloning
+    board = board.transpose.transpose # deep clone
     remain = chars[1..-1]
     if remain.empty?
       true
@@ -38,7 +38,4 @@ def include?(word)
   end
 end
 
-# TESTS
-# require_relative 'boggle_board_tests'
-
-boggle = BoggleBoar
+# TODO tests
