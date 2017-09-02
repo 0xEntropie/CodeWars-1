@@ -25,6 +25,7 @@ It's a cool website where you face challenges and you get leveled by how good yo
 - [Hamming Numbers](js/hamming_numbers.js) - 4 kyu
 - [Snail Sort](js/snail_sort.js) - 4 kyu
 - [Undo Redo](js/undo_redo.js) - 4 kyu
+- [Common Denominators](js/common_denominators.js) - 5 kyu
 - [Find the missing term in an Arithmetic Progression](js/missing_num_progression.js) - 5 kyu
 - [Parentheses](js/parentheses.js) - 5 kyu
 - [Fibonacci Product](js/fib_product.js) - 5 kyu
